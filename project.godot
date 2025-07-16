@@ -12,7 +12,11 @@ config_version=5
 
 config/name="VFXShowcase"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://Resources/Texture/icon.svg"
+config/icon="res://assets/Texture/icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/tinyxlsx/plugin.cfg")
 
 [physics]
 

@@ -7,10 +7,7 @@ var gameState: Dictionary = {
 	GAMESTATE.MAIN_MENU: preload("res://Resources/Scenes/Game/GameStates/GS_MainMenu.tscn")
 }
 
-@export var currentGameState: int = GAMESTATE.LOADING
-var GameStateStack: Array[int] = []
 
 func GameDBInit() -> bool:
-	for i in GAMESTATE.size():
-		GameStateStack.append(GAMESTATE.NONE)
+
 	return true
